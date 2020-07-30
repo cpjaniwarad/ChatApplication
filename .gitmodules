@@ -1,0 +1,3 @@
+[submodule "ChatApplication"]
+	path = ChatApplication
+	url = ./ChatApplication
