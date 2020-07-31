@@ -1,0 +1,88 @@
+.login-view {
+    height: 100%;
+    width: 100%;
+    background-image: url('./login.png');
+    padding: 0;
+    margin: 0;
+    .row {
+        height: inherit;
+        padding: 0;
+        margin: 0;
+        .login-part {
+            height: inherit;
+            padding: 0;
+            margin: 0;
+            .login-section {
+                position: relative;
+                top: 10%;
+                background-color: white;
+                height: 80%;
+                .icon-info {
+                    height: 25%;
+                    background-color: rgb(230, 236, 240);
+                    color: darkcyan;
+                    .person {
+                        font-size: 90px;
+                        float: left;
+                        padding-left: 20px;
+                        width: 30%;
+                    }
+                    .login-text {
+                        font-size: 30px;
+                        padding: 40px;
+                        font-weight: bold;
+                    }
+                }
+                .login-user {
+                    height: 75%;
+                    text-align: center;
+                    p {
+                        height: 35px;
+                        margin-top: 20px;
+                        padding: 0;
+                        i {
+                            font-size: 20px;
+                            position: absolute;
+                            width: 25px;
+                            padding-top: 8px;
+                            padding-left: 2px;
+                            color: green;
+                        }
+                        input {
+                            width: 70%;
+                            padding-left: 30px;
+                            height: inherit;
+                            border: 1px solid darkgrey;
+                            border-radius: 5px;
+                            
+                        }
+                        input:focus {
+                            outline: none;
+                        }
+                    }
+                    
+                    button {
+                        margin-top: 20px;
+                        padding: 5px 60px;
+                        background-color: green;
+                        background-color: darkcyan;
+                        color: white;
+                        border: 1px solid darkcyan;
+                        border-radius: 5px;
+                    }
+                    button:focus {
+                        outline: none;
+                    }
+                    .forgot:hover {
+                        cursor: pointer;
+                    }
+                    .sign-up {
+                        color: #337ab7;
+
+                    }
+                    
+                }
+            }
+        }
+    }
+}
