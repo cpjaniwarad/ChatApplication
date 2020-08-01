@@ -1,0 +1,90 @@
+.home-comp {
+    height: 100%;
+    width: 100%;
+    .header {
+        height: 10%;
+        width: inherit;
+        background-color: rgb(230, 236, 240);
+    }
+    .footer {
+        height: 10%;
+        width: inherit;
+        background-color: rgb(230, 236, 240);
+    }
+    .home-area {
+        height: 80%;
+        width: inherit;
+        .row {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            .left-pane {
+                height: inherit;
+                padding: 0;
+                margin: 0;
+                background-color: rgb(245, 248, 250);
+                overflow: auto;
+                .farmer-header {
+                    font-weight: 800;
+                    font-size: 19px;
+                    color: rgb(20, 23, 26);
+                    height: 10%;
+                    margin: 0;
+                    padding: 15px;
+                    border-bottom: 1px solid;
+                    border-bottom-color: rgb(230, 236, 240);
+                }
+                .farmer-list {
+                    padding: 15px;
+                    height: 15%;
+                    color: rgb(101, 119, 134);
+                    border-bottom: 1px solid;
+                    border-bottom-color: rgb(230, 236, 240);
+                    p {
+                        margin: 0;
+                    }
+                    .farmer-name {
+                        font-weight: bold;
+                        font-size: 15px;
+                        color: rgb(20, 23, 26); 
+                    }
+                }
+                .farmer-list:hover {
+                    cursor: pointer;
+                    background-color: rgba(0,0,0,0.1);
+                }
+            }
+            .right-pane {
+                height: inherit;
+                padding: 0;
+                margin: 0;
+                overflow: auto;
+                .seed-row {
+                    padding: 0;
+                    margin: 0;
+                    height: 50%;
+                    .seed {
+                        height: 100%;
+                        padding: 0;
+                        border: 5px solid white;
+                        p {
+                            text-align: center;
+                            font-weight: bold;
+                            height: 10%;
+                            margin: 0;
+                        }
+                        img {
+                            height: 80%;
+                            width: 100%;
+                        }
+                    }  
+                    .seed:hover {
+                        border-radius: 5px;
+                        border: 1px solid rgba(0,0,0,0.1);
+                    }
+                    
+                }
+            }
+        }
+    }
+}

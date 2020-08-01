@@ -1,1 +1,41 @@
-<p>home works!</p>
+<div class="home-comp">
+   <div class="header">
+
+   </div>
+   <div class="home-area">
+    <div class="row">
+        <div class="col-sm-3 left-pane">
+            <p class="farmer-header">Farmer's List</p>
+            <div class="farmer-list" *ngFor="let farmer of farmers">
+                <p class="farmer-name">{{farmer.name}}</p>
+                <p>{{farmer.location}}</p>
+                <p>Seeds ({{farmer.seeds}})</p>
+            </div>
+           
+        </div>
+        <div class="col-sm-9 right-pane">
+            <div class="row seed-row" *ngFor="let com of seeds">
+                
+                <div class="col-sm-4 seed">
+                   <p> {{com.name}} </p>
+                   <img [src]="com.image" alt="seed"/>
+                </div>
+                
+                <div class="col-sm-4 seed">
+                    <p> {{com.name}} </p>
+                    <img [src]="com.image" alt="seed"/>
+                 </div>
+                
+                 <div class="col-sm-4 seed">
+                    <p> {{com.name}} </p>
+                    <img [src]="com.image" alt="seed"/>
+                 </div>
+
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="footer">
+
+   </div>
+</div>
